@@ -1,0 +1,329 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Text Colors */
+.text-dark-custom {
+  color: #3a3a47 !important;
+}
+
+.text-grey-custom {
+  color: #5c5c5c !important;
+}
+
+.text-light-grey-custom {
+  color: #818198 !important;
+}
+
+.text-dark-blue-custom {
+  color: #383b61 !important;
+}
+
+.text-blue-custom {
+  color: #3498db !important;
+}
+
+.text-green-custom {
+  color: #21bf73 !important;
+}
+
+/* Background Color */
+.bg-primary-custom {
+  background-color: #f0f5f9;
+}
+
+/* Form and Button styles */
+
+.btn {
+  padding: 0 20px;
+  line-height: 38px;
+}
+
+.btn-blue-custom {
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.btn-blue-custom:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.btn-success-custom {
+  border: 2px solid #21bf73;
+  background-color: #21bf73;
+  color: #ffffff;
+}
+
+.btn-success-custom:hover {
+  color: #ffffff;
+}
+
+/* Form control custom */
+.form-control-custom {
+  color: #222222;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #f0f5f8;
+  outline: none;
+  padding-left: 20px;
+}
+
+/* Font styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat";
+}
+
+/* Navigation menu  */
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.btn {
+  padding: 0 20px;
+}
+
+.home {
+  padding: 150px 0 100px 0;
+}
+
+.about__card-1 {
+  background: #fff2e5;
+}
+.about__card-2 {
+  background: #f8f9fa;
+}
+.about__card-3 {
+  background: #f0f5f9;
+}
+
+.about__card-image {
+  width: 80px;
+}
+
+.features__list-tick li {
+  margin: 15px 0;
+}
+
+.intro h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3498db;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.intro h2 {
+  font-weight: 800;
+  color: #383b61;
+}
+
+.results__card-img {
+  padding: 15px;
+}
+
+.card-img {
+  width: 80px;
+}
+
+.card-text {
+  margin: 0px 10px;
+}
+
+.results__card .card-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #383b61;
+}
+
+.results__card .card-text h2 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5em;
+  color: #abafb3;
+}
+
+.reviews__container {
+  padding: 100px 50px;
+  background-color: #f0f5f9;
+}
+
+.reviews__container h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #383b61;
+  line-height: 1.2;
+}
+
+.reviews__customer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #6a7076;
+  margin-top: 15px;
+}
+
+.carousel-item__quote {
+  float: left;
+  width: 60px;
+}
+
+.carousel-item__image {
+  width: 60px;
+}
+
+.pricing {
+  padding: 100px 150px;
+}
+
+.pricing-intro h1 {
+  color: #3a3a47;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.pricing-intro p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #abafb3;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.pricing .table-left,
+.pricing .table-right {
+  padding: 15%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #f0f5f9;
+  border: transparent;
+  max-width: 400px;
+}
+
+.table-left h2,
+.table-right h2 {
+  font-weight: 800;
+  color: #3a3a47;
+  margin-bottom: 15px;
+}
+
+.table-left p,
+.table-right p {
+  font-weight: 500;
+  color: #abafb3;
+  line-height: 1.4;
+}
+
+.table-left img,
+.table-right img {
+  width: 120px;
+}
+
+.pricing-details {
+  padding: 50px 0 0 0;
+}
+
+.pricing-details span {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 300;
+  color: #505050;
+  margin-bottom: 15px;
+}
+
+.sub-span {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  color: #505050;
+}
+
+.refund-txt {
+  font-size: 12px;
+  font-weight: 500;
+  color: #505050;
+}
+
+.faq__inner {
+  padding: 100px 0;
+  background: #f0f5f9;
+}
+
+.faq__inner h2 {
+  font-weight: 800;
+  color: #3a3a47;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.faq__inner p {
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #6a7076;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.faq__intro {
+  margin-bottom: 50px;
+}
+
+.faq__intro h5 {
+  font-weight: 500;
+  color: #766a6c;
+  line-height: 1.6;
+  margin-top: 20px;
+  display: inline;
+}
+
+/* .accordion-item {
+  background: #f0f5f9;
+} */
+
+/* .accordion .accordion-button,
+.accordion .accordion-collapse {
+  padding: 30px 0;
+  background: #f0f5f9;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+} */
+
+.faq {
+  background: #f0f5f9;
+}
+
+.start-trial {
+  padding-top: 50px;
+}
+
+.footer {
+  background-color: #f0f5f9;
+}
